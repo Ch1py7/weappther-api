@@ -34,6 +34,9 @@ devDependencies:
   eslint:
     specifier: ^8.44.0
     version: 8.44.0
+  typescript:
+    specifier: ^5.1.6
+    version: 5.1.6
 
 packages:
 
