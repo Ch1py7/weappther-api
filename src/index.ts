@@ -9,7 +9,7 @@ import cors from 'cors'
 const app = express()
 
 const options = {
-  origin: ['https://weappther.vercel.app', 'same-origin']
+  origin: 'https://weappther.vercel.app'
 }
 
 app.use(cors(options))
