@@ -1,5 +1,5 @@
 import express from 'express'
-import { CurrentLocation } from '../types/current'
+import { CurrentLocation } from 'src/types/current'
 
 export const getCurrentWeather = async (req: express.Request, res: express.Response) => {
   try {
